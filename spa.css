@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+
+.page {
+  display: none;
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+  padding: 1rem 2rem;
+}
+.active {
+  display: block;
+}
+#home {
+  background-color: hsl(0, 100%, 99%);
+}
+#list {
+  background-color: hsl(180, 68%, 67%);
+}
+#detail {
+  background-color: hsl(240, 100%, 77%);
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.big {
+  font-size: 5rem;
+  font-weight: 900;
+}

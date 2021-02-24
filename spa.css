@@ -13,7 +13,7 @@ html {
   display: none;
   width: 100%;
   min-height: 100%;
-  /*position: fixed;*/
+
   padding: 1rem 2rem;
 }
 .active {
@@ -21,23 +21,26 @@ html {
 }
 #home {
   background-color: hsl(0, 100%, 99%);
+  position: fixed;
 }
 #list {
   background-color: hsl(180, 68%, 67%);
+  position: fixed;
 }
 #detail {
-  background-color: hsl(240, 100%, 77%);
+  background-color: hsl(320, 100%, 77%);
 }
 h1 {
   font-size: 2rem;
   font-weight: 600;
   transition: all 0.5s;
+  text-decoration: none;
 }
 .big {
   font-size: 5rem;
   font-weight: 900;
 }
 img {
-  width: 50%;
-  height: 30%;
+  width: 40%;
+  height: 40%;
 }

@@ -36,7 +36,6 @@ const app = {
         document.querySelector('.active').classList.remove('active');
         document.getElementById(hash).classList.add('active');
         console.log(hash)
-        //history.pushState({}, currentPage, `#${currentPage}`);
         document.getElementById(hash).dispatchEvent(app.show);
     }
 }
